@@ -1,6 +1,64 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 #main {
     width: 100vw;
-    height: 90vh;;
+    height: 93vh;;
     background-image: url("https://10websites-design-to-html-css.netlify.app/automotive-car-design/car-bg.jpg");
+    background-position: center;
+    background-size: cover;
+}
 
+footer {
+    height: 7vh;
+    background-color: black;
+}
+
+#container {
+    width: 1000px;
+    /* border: 2px solid green; */
+    margin: 0 auto;
+    height: 99vh;
+}
+
+nav {
+    color: white;
+    height: 60px;
+    /* border: 2px solid purple; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+
+#logo {
+    font-size: 3em;
+}
+
+.fas {
+    padding-right: 0.3em;
+}
+
+.links {
+    color: white;
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+#firstBtn {
+    height: 50px;
+    padding: 5px 10px;
+    color: white;
+    background-color: #00C2FF;
+    border: none;
+}
+
+.link {
+    margin: 0 5px;
 }
